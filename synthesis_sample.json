@@ -1,0 +1,463 @@
+{
+  "_meta": {
+    "dataset": "Sodium-Ion Battery Cathode Literature Mining",
+    "version": "1.0.0",
+    "date": "2026-06-25",
+    "total_entries": 1088,
+    "sample_size": 15,
+    "license": "CC BY-NC-SA 4.0 — Full dataset: contact https://github.com/notitiacorp-design/sodium-ion-workbench"
+  },
+  "executive_summary": {
+    "ranking": [
+      {
+        "rank": 1,
+        "arch": "PBA / Prussian White",
+        "score": "95/100",
+        "cost": "1-3 $/kg",
+        "scale": "Mass (CATL Naxtra)"
+      },
+      {
+        "rank": 2,
+        "arch": "Layered Oxide Fe/Mn",
+        "score": "88/100",
+        "cost": "2-5 $/kg",
+        "scale": "Mass (HiNa, Faradion)"
+      },
+      {
+        "rank": 3,
+        "arch": "Layered Oxide Ni/Fe/Mn",
+        "score": "68/100",
+        "cost": "10-15 $/kg",
+        "scale": "Integrated"
+      },
+      {
+        "rank": 4,
+        "arch": "NASICON Vanadium",
+        "score": "38/100",
+        "cost": "15-25 $/kg",
+        "scale": "Pilot (Tiamat, Amiens)"
+      }
+    ],
+    "asymmetry": "Tiamat (5 GWh, Amiens) uses vanadium ~12,000 $/T. CATL PBA uses soda ash 159 $/T. 75x cost difference on cathode precursors."
+  },
+  "papers": [
+    {
+      "title": "Compensating Sodium Ions and Regulating Interface Chemistry through a High-Capacity Organic Salt for Practical Na-Ion Batteries.",
+      "year": "2026",
+      "pmid": "42290039",
+      "doi": "10.1021/acsami.6c07127",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        100
+      ],
+      "capacity_retention_pct": [
+        80.1
+      ],
+      "voltage_V": [],
+      "C_rate": [
+        2.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Interface instability"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Copper-Activated Dynamic Lattice Adaptation and Bond Reinforcement for Enhanced Sodium Storage of Prussian Blue Analogs Cathode.",
+      "year": "2026",
+      "pmid": "42178773",
+      "doi": "10.1002/smll.73930",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        200
+      ],
+      "capacity_retention_pct": [
+        82.0
+      ],
+      "voltage_V": [],
+      "C_rate": [
+        1.0,
+        20.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Crystalline water"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Unraveling Water-Defect Coupled Degradation via Deuterium Isotope Labeling in Prussian Blue Analogue Cathodes for Long-Life Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "42160118",
+      "doi": "10.1002/anie.6167442",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [
+        1.0,
+        20.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Crystalline water",
+        "Capacity fading"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Surface Gradient Doping Enables High-Capacity and Long-Life Manganese-Based Prussian Blue Cathodes for Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "42159928",
+      "doi": "10.1002/anie.6338402",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        500,
+        3000
+      ],
+      "capacity_retention_pct": [
+        78.0
+      ],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [
+        {
+          "type": "synthesis_method",
+          "mention": "coprecipitation"
+        }
+      ],
+      "technical_barriers": [
+        "Structural degradation",
+        "Mn dissolution",
+        "Jahn-Teller distortion",
+        "Interface instability",
+        "Capacity fading"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Ammonium-Anchored Mn-Based Prussian Blue Analogues via Hydrogen Bonding for Robust Sodim-Ion Battery Cathodes.",
+      "year": "2026",
+      "pmid": "42153505",
+      "doi": "10.1002/smll.73827",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [
+        1.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Structural degradation",
+        "Mn dissolution",
+        "Phase transformation",
+        "Jahn-Teller distortion",
+        "Phase transition",
+        "Capacity fading"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Orbital-level stabilization of Fe-N bonds in Prussian blue positive electrodes via alkali metal lattice engineering.",
+      "year": "2026",
+      "pmid": "42103733",
+      "doi": "10.1038/s41467-026-72759-0",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000
+      ],
+      "capacity_retention_pct": [
+        81.48
+      ],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Air instability",
+        "Crystalline water",
+        "Structural degradation",
+        "Irreversible phase change",
+        "Phase transition"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Ni-Regulated Energy-Level Matching Enables Enhanced Electronic Delocalization and Fast Na +  Kinetics in High-Entropy Prussian Blue Analogues.",
+      "year": "2026",
+      "pmid": "42089698",
+      "doi": "10.1021/acsami.6c01649",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000
+      ],
+      "capacity_retention_pct": [
+        85.45
+      ],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [
+        {
+          "type": "cathode_formula",
+          "mention": "nation energy levels critically determine the degree of electronic delocalization acro"
+        },
+        {
+          "type": "cathode_formula",
+          "mention": "nation energy levels fundamentally governs the electronic delocalization and electrochemical kinetics of PBA"
+        },
+        {
+          "type": "layered_oxide",
+          "mention": "natio"
+        },
+        {
+          "type": "layered_oxide",
+          "mention": "natio"
+        }
+      ],
+      "technical_barriers": [
+        "Structural degradation",
+        "Sluggish kinetics"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Synergistic Synthesis Regulation and Binder Optimization Unlock High-Rate and Durable Na 2-δ MnHCF Cathodes for Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "42070301",
+      "doi": "10.1021/acsami.5c25632",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        100,
+        500
+      ],
+      "capacity_retention_pct": [
+        82.34
+      ],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [
+        {
+          "type": "synthesis_method",
+          "mention": "citrate"
+        },
+        {
+          "type": "synthesis_method",
+          "mention": "coprecipitation"
+        },
+        {
+          "type": "additive",
+          "mention": "polyvinylpyrrolidone"
+        },
+        {
+          "type": "additive",
+          "mention": "PVP"
+        },
+        {
+          "type": "additive",
+          "mention": "PVP"
+        }
+      ],
+      "technical_barriers": [],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Mn 2+  Gradient-Release Strategy-Assisted Synthesis of Highly Crystalline Mn-Based Prussian Blue Analogue Cathodes for Aqueous Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "41988944",
+      "doi": "10.1021/acs.langmuir.6c00191",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        100,
+        120
+      ],
+      "capacity_retention_pct": [
+        88.4,
+        78.8
+      ],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [
+        {
+          "type": "cathode_formula",
+          "mention": "nation equilibria and citrate complexatio"
+        },
+        {
+          "type": "layered_oxide",
+          "mention": "natio"
+        },
+        {
+          "type": "synthesis_method",
+          "mention": "coprecipitation"
+        },
+        {
+          "type": "synthesis_method",
+          "mention": "citrate"
+        }
+      ],
+      "technical_barriers": [
+        "Irreversible phase change",
+        "Crystalline water",
+        "Capacity fading"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Achieving Ultra-Long Cycling Stability in Sodium-Ion Batteries via Entropy-Stabilized Chromium-Doped Prussian Blue Analogue Cathodes.",
+      "year": "2026",
+      "pmid": "41870985",
+      "doi": "10.1021/acsami.6c01358",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        18000
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [
+        30.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Structural degradation",
+        "Phase transition"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Regulating the Structure and Kinetic Properties of Prussian White Cathode With Atmosphere Protection for Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "41587389",
+      "doi": "10.1002/asia.70596",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        200
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [
+        5.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Crystalline water",
+        "Phase transformation",
+        "CN vacancies/defects",
+        "Phase transition"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "A solid dual-salt plastic crystal electrolyte enabling rapid ion transfer and stable interphases for high-performance solid-state sodium ion batteries.",
+      "year": "2026",
+      "pmid": "41536434",
+      "doi": "10.1039/d5sc09186a",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        2500,
+        100
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [
+        60.0,
+        10.0
+      ],
+      "precursors_mentioned": [
+        {
+          "type": "cathode_formula",
+          "mention": "nation o"
+        },
+        {
+          "type": "layered_oxide",
+          "mention": "natio"
+        },
+        {
+          "type": "synthesis_method",
+          "mention": "solid-state"
+        },
+        {
+          "type": "synthesis_method",
+          "mention": "solid-state"
+        }
+      ],
+      "technical_barriers": [],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Versatile Co 9 S 8  Nanocoating Stabilizes Prussian Blue Analogue Cathodes for Aqueous Sodium-Ion Batteries.",
+      "year": "2026",
+      "pmid": "41533490",
+      "doi": "10.1021/acsami.5c22727",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        500
+      ],
+      "capacity_retention_pct": [
+        80.2
+      ],
+      "voltage_V": [],
+      "C_rate": [
+        40.0,
+        1.0
+      ],
+      "precursors_mentioned": [],
+      "technical_barriers": [
+        "Structural degradation",
+        "Sluggish kinetics"
+      ],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Ultrastable and High-Rate Sodium Storage Enabled by High-Entropy Doping in HE-Fe 3 Se 4 /Se/MXene Composites.",
+      "year": "2026",
+      "pmid": "41504113",
+      "doi": "10.1002/smll.202514126",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [],
+      "technical_barriers": [],
+      "_architecture": "prussian_white_pba"
+    },
+    {
+      "title": "Selenium-Bridged Bimetallic Selenide Heterostructure for Superior Sodium Storage.",
+      "year": "2026",
+      "pmid": "41489421",
+      "doi": "10.1002/smll.202514025",
+      "specific_capacity_mAhg": [],
+      "energy_density_Whkg": [],
+      "cycles_tested": [
+        1000,
+        3000
+      ],
+      "capacity_retention_pct": [],
+      "voltage_V": [],
+      "C_rate": [],
+      "precursors_mentioned": [],
+      "technical_barriers": [],
+      "_architecture": "prussian_white_pba"
+    }
+  ]
+}
