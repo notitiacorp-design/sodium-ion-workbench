@@ -58,7 +58,7 @@ The market is funding a chemistry that the periodic table has already priced out
 
 The complete dataset contains **1,088 structured entries** across all cathode architectures, with PubMed IDs, DOIs, extracted metrics (specific capacity, energy density, cycle life, capacity retention), and classified failure mechanisms.
 
-→ **License inquiries: contact via this repository.**
+→ [Purchase Full Dataset — 490€](https://buy.stripe.com/5kQ00cbn15kgbyubVm2sM07)
 
 ---
 
