@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sodium-Ion Workbench</title>
+<style>
+  body { max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #1a1a1a; background: #fafafa; }
+  h1 { border-bottom: 2px solid #2563eb; padding-bottom: 8px; }
+  h2 { margin-top: 32px; color: #1e40af; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #d1d5db; padding: 10px 14px; text-align: left; }
+  th { background: #2563eb; color: white; }
+  tr:nth-child(even) { background: #f3f4f6; }
+  code { background: #e5e7eb; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  .score { font-weight: bold; font-size: 1.1em; }
+  .highlight { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 12px 16px; margin: 16px 0; }
+  a { color: #2563eb; }
+</style>
+</head>
+<body>
+
+<h1>Sodium-Ion Workbench</h1>
+<p><strong>Open-source reverse-engineering of critical battery materials.</strong> AI-assisted literature mining for cathode architectures.</p>
+
+<h2>Architecture Ranking</h2>
+<table>
+<tr><th>Rank</th><th>Architecture</th><th>Score</th><th>Cathode Cost</th><th>Production Status</th><th>Key Risk</th></tr>
+<tr><td>🥇</td><td><strong>PBA / Prussian White</strong></td><td class="score">95/100</td><td>1–3 $/kg</td><td>Mass (CATL Naxtra, Dec 2025)</td><td>Mn dissolution, Jahn-Teller</td></tr>
+<tr><td>🥈</td><td><strong>Layered Oxide Fe/Mn</strong></td><td class="score">88/100</td><td>2–5 $/kg</td><td>Mass (HiNa, Faradion &gt;1 GWh)</td><td>Air instability, phase transitions</td></tr>
+<tr><td>🥉</td><td><strong>Layered Oxide Ni/Fe/Mn</strong></td><td class="score">68/100</td><td>10–15 $/kg</td><td>Integrated pilot</td><td>Nickel cost volatility</td></tr>
+<tr><td>4</td><td><strong>NASICON Vanadium (NVPF)</strong></td><td class="score" style="color:#dc2626">38/100</td><td>15–25 $/kg</td><td>Pilot (Tiamat, Amiens FR)</td><td><strong>V₂O₅ at ~12,000 $/T</strong></td></tr>
+</table>
+
+<div class="highlight">
+<strong>⚡ The Asymmetry:</strong> Tiamat Energy (Amiens, 5 GWh) uses NASICON-vanadium. Vanadium pentoxide costs ~12,000 USD/ton. CATL's Prussian White uses soda ash at 159 USD/ton. That's a <strong>75× cost multiplier</strong> on cathode precursors alone. The physics of the periodic table does not negotiate.
+</div>
+
+<h2>Precursor Prices (June 2026)</h2>
+<table>
+<tr><th>Precursor</th><th>Price</th><th>Used In</th></tr>
+<tr><td>Na₂CO₃ (soda ash)</td><td>159 $/T</td><td>PBA, Layered Oxides</td></tr>
+<tr><td>Li₂CO₃ (lithium)</td><td>21,600 $/T (136×)</td><td>Li-ion (reference)</td></tr>
+<tr><td>Fe₂O₃ (iron ore 62%)</td><td>101 $/T</td><td>PBA, Layered Oxides</td></tr>
+<tr><td>MnO₂ (battery grade)</td><td>~500 $/T</td><td>PBA, Layered Oxides</td></tr>
+<tr><td>V₂O₅ (vanadium)</td><td style="color:#dc2626;font-weight:bold">~12,000 $/T</td><td>NASICON (Tiamat)</td></tr>
+<tr><td>Co metal (cobalt)</td><td>56,290 $/T</td><td>NMC Li-ion (reference)</td></tr>
+</table>
+
+<h2>Repository</h2>
+<ul>
+<li><a href="README.md">Full README</a></li>
+<li><a href="SYNTHESE.md">Literature Synthesis</a></li>
+<li><a href="analyse_economique.md">Economic Analysis</a></li>
+<li><a href="synthesis_sample.json">Sample Dataset (JSON)</a></li>
+</ul>
+
+<p><em>The full dataset contains 1,088 structured entries. License inquiries: contact via this repository.</em></p>
+<p style="margin-top:40px;color:#6b7280;font-size:0.9em">CC BY-NC-SA 4.0 · The physics of the periodic table does not negotiate.</p>
+
+</body>
+</html>
